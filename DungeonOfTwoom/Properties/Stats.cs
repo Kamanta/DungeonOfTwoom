@@ -16,20 +16,18 @@ namespace DungeonOfTwoom.Properties
         public int charisma { get; set; }
         public int constitution { get; set; }
 
-        public int takeDamage(int damage)
+        public void takeDamage(int damage)
         {
-            this.currentHP = currentHP - damage;
-            if (this.currentHP < 0)
-            { this.currentHP = 0; }
-            return this.currentHP;
+            currentHP = currentHP - damage;
+            if (currentHP < 0)
+            { currentHP = 0; }
         }
 
-        public int healHP(int healing)
+        public void healHP(int healing)
         {
-            this.currentHP = currentHP + healing;
-            if (this.currentHP > maxHP)
-            { this.currentHP = maxHP; }
-            return this.currentHP;
+            currentHP = currentHP + healing;
+            if (currentHP > maxHP)
+            { currentHP = maxHP; }
         }
     }
 
