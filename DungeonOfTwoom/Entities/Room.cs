@@ -9,6 +9,7 @@ public class Room
 	public List<object> monsters { get; set; }
 	public List<object> NPCs { get; set; }
 
+	public Room() { }
 	public Room(string description)
 	{
 		this.description = description;
