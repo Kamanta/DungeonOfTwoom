@@ -10,6 +10,20 @@
                     "direction": "South",
                     "door": "wooden-simple"
                 }
+            ],
+            "itemList": [
+                {
+                    "itemName": "OatStick",
+                    "description": "A stick made of oats"
+                },
+                {
+                    "itemName": "SimpleKey",
+                    "description": "A small metal key"
+                },
+                {
+                    "itemName": "ButtSoup",
+                    "description": "A bubbling pot of Butt Soup"
+                }
             ]
 
         },
