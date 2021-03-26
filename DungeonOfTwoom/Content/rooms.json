@@ -3,7 +3,15 @@
         {
             "roomID": 1,
             "roomName": "buttsoup",
-            "description": "This room is full of pots brimming with Butt Soup!"
+            "description": "This room is full of pots brimming with Butt Soup!",
+            "connectedRooms": [
+                {
+                    "roomID": 2,
+                    "direction": "South",
+                    "door": "wooden-simple"
+                }
+            ]
+
         },
         {
             "roomID": 2,
