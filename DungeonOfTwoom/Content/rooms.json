@@ -1,14 +1,22 @@
 {
-    "rooms": {
+    "rooms": [
         {
-            roomID: 1,
-            roomName: "buttsoup",
-            description: "This room is full of pots brimming with Butt Soup!"
+            "roomID": 1,
+            "roomName": "buttsoup",
+            "description": "This room is full of pots brimming with Butt Soup!",
+            "connectedRooms": [
+                {
+                    "roomID": 2,
+                    "direction": "South",
+                    "door": "wooden-simple"
+                }
+            ]
+
         },
         {
             "roomID": 2,
             "roomName": "vestibule",
             "description": "This room is a haunting vestibule full of lavish coat hangers and dusty cobwebs."
         }
-    }
+    ]
 }
